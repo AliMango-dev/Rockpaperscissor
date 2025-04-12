@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>RockPaperScissor</title>
+</head>
+<body class="flex-col items-center justify-center min-h-screen" >
+    <div class="bg-neutral-600 justify-center text-center text-amber-200 text-2xl font-bold">
+        <h1 class="p-6">ROCK PAPER SCISSORS</h1>
+    </div>
+
+    <div class="flex flex-wrap justify-center pt-6 gap-7  ">
+        <div class="h-56 w-64 content-center flex flex-wrap">
+            <img width="96" height="96" src="https://img.icons8.com/pulsar-color/96/angry-fist.png" alt="angry-fist"/>
+            <button id="rock" class="mt-6 rounded-md border border-slate-300 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
+                ROCK
+              </button>
+        </div>
+
+        <div class="h-56 w-64 content-center flex flex-wrap">
+            <img width="96" height="96" src="https://img.icons8.com/pulsar-color/96/hand.png" alt="hand"/>
+            <button id="paper" class="mt-6 rounded-md border border-slate-300 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
+                PAPER
+              </button>
+        </div>
+
+        <div class="h-56 w-64 content-center flex flex-wrap">
+            <img width="96" height="96" src="https://img.icons8.com/pulsar-color/96/hand-scissors.png" alt="hand-scissors"/>
+            <button id="scissor" class="mt-6 rounded-md border border-slate-300 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
+                SCISSORS
+              </button>
+        </div>
+    </div>
+
+    <div id="result" class="text-xl font-semibold text-center"></div>
+    <script src="script.js"></script>
+
+
+
+    
+    
+</body>
+</html>
